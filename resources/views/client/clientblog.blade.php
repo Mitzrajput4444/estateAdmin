@@ -1,4 +1,4 @@
-<?php include'header.php';?>
+@include ('client.clientheader')
 <!-- banner -->
 <div class="inside-banner">
   <div class="container"> 
@@ -151,4 +151,4 @@
 </div>
 </div>
 
-<?php include'footer.php';?>
+@include ('client.clientfooter')

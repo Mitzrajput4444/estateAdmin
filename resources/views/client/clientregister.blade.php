@@ -3,7 +3,7 @@
 <div class="inside-banner">
   <div class="container"> 
     <span class="pull-right"><a href="#">Home</a> / Register</span>
-    <h2>Register</h2>
+    <h2>Register</h2>git remote add origin https://github.com/Mitzrajput4444/estateAdmin.git
 </div>
 </div>
 <!-- banner -->
@@ -22,9 +22,6 @@
 
                 <textarea rows="6" class="form-control" placeholder="Address" name="form_message"></textarea>
       <button type="submit" class="btn btn-success" name="Submit">Register</button>
-          
-
-
                 
         </div>
   

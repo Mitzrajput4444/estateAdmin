@@ -2,8 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use app\Http\Controllers\admin\adminindex;
+use App\Http\Controllers\Client\ClientController;
 
-
+use GuzzleHttp\Client;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,3 +30,9 @@ route::get('/index',function(){
 route::get('/home',function(){
     return view('client.clientindex');
    });
+   route::get('/home',[ClientController::class,'home'])->name('home');
+   route::get('/about',[ClientController::class,'about'])->name('about');
+   route::get('/agent',[ClientController::class,'agent'])->name('agent');
+   route::get('/blog',[ClientController::class,'blog'])->name('blog');
+   route::get('/contact',[ClientController::class,'contact'])->name('contact');
+   route::get('/buysalerent',[ClientController::class,'buysalerent'])->name('buysalerent');
