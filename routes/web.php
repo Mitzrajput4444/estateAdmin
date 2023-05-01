@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use app\Http\Controllers\admin\adminindex;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +19,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+route::get('/index',function(){
+    return view('adminindex');
+   });
+   route::get('/mainsection',function(){
+    return view('allpage.section');
+   });
+// ---------------------------Clientside-------------------------
+route::get('/home',function(){
+    return view('client.clientindex');
+   });
