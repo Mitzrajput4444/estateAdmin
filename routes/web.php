@@ -18,7 +18,7 @@ use GuzzleHttp\Client;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('client.clientindex');
 });
 route::get('/index',function(){
     return view('adminindex');
