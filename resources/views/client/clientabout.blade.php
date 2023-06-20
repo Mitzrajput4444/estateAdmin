@@ -1,4 +1,5 @@
-@include ('client.clientheader');
+@extends('client.main')
+@section('content')
 <!-- banner -->
 <div class="inside-banner">
   <div class="container"> 
@@ -25,4 +26,4 @@
 </div>
 </div>
 
-@include ('client.clientfooter')
+@stop

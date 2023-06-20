@@ -9,7 +9,6 @@
 </div>
 <!-- banner -->
 
-
 <div class="container">
 <div class="spacer agents">
 
@@ -33,7 +32,6 @@
       </div>
       <!-- agents -->
       
-
        <!-- agents -->
       <div class="row">
         <div class="col-lg-2 col-sm-2 "><a href="#"><img src="images/agents/3.jpg" class="img-responsive" alt="agent name"></a></div>
